@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title> HF Prework Study Guide</title>
   </head>
   <body>
@@ -102,8 +103,32 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Cascading Style Sheets</li>
-          <li>used by developers to define how webpage content is presented to users</li>
+          <li>CSS Rules
+            <ul>
+              <li>Selector: defines the element or attributes to which the rules, or declarations, will apply
+                <ul>
+                  <li>Declarations contain two important components: the CSS property we want to apply and the value of the property. For example, the declaration color: blue; includes the CSS property color and the value for that property, blue</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>A `margin` property indicates how much space we want around the outside of an element.
+            <ul>
+              <li>The margin is not visible on the page; it merely adds a buffer. When we set the margin property to 0, we are indicating that we want NO extra space around the element.</li>
+            </ul>
+          </li>
+          <li>The `padding property` adds space around the content inside an element.
+            <ul>
+              <li>The `padding` property is often confused with `margin`, but it is not the same thing. </li>
+              <li>When you increase padding, you are actually making the entire element bigger! That is because the padding, while transparent, is located inside the element, whereas the margin is the transparent buffer outside an element.</li>
+            </ul>
+            <li>The period preceding `card` designates this as a class selector. Any HTML element assigned to the class, card, will gain these property assignments from the CSS</li>
+            <li>The first declaration addresses the `width` of the element at 80% of the available width.</li>
+            <li>The `margin` property assigns 40px to the top and bottom, and the auto value to the left and right.</li>
+            <li>The `border` property assigns a border with a width of 5px that is solid and gray.</li>
+            <li>The `box-shadow` CSS property adds shadow effects around an element's frame.</li>
+            <li>You can set multiple effects separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color. In our example, the X offset is 5px and defines the width or extent of the shadow on the X axis (or to the right of the box); the Y offset is 10px and defines the extent on the Y axis (or just below the box). We haven’t defined the blur or spread radius here, but you’ll learn more about this in time. We’ve used an HTML hexadecimal code to define the color.</li>
+          </li>
         </ul>
       </section>
       <!--END OF CSS SECTION-->
@@ -114,6 +139,7 @@
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
           <li>git push origin &lt;name of branch&gt;</li>
+          <li>git merge conflict</li>
         </ul>
       </section>
       <!--END OF GIT SECTION-->

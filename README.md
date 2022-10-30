@@ -27,9 +27,11 @@ This study guide has notes on HTML, CSS, Javascript, and Git.
 It is solely meant for reading.
 One can "Inspect" the page on Chrome and find the Javascript function call implementation practice outputs in the Console.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+Here's the top of the page:
+![alt text](assets/prework_studyguide_1.png)
 
-![alt text](assets/images/screenshot.png)
+Here's the bottom of the page:
+![alt text](assets/prework_studyguide_2.png)
 
 ## Credits
 
